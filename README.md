@@ -35,3 +35,9 @@ Masking any columns that can identify an individual (e.g., passport numbers or m
 Categorizing personal figures (e.g., age and income) into a bracket rather than a specific number.
 
 First, I had to research the different techniques for anonymizing the data set. Then, I edited the data set and created an anonymized data set as a CSV file. I decided to do this task using a Python script instead of Excel.
+
+***Note*** python script and anonymize_data can be found in the files.
+
+## Task 3
+
+
