@@ -18,4 +18,20 @@ Across locations, how many apples were purchased in cash?
 How much total cash was spent on these apples?
 Across all payment methods, how much money was spent at the Bakershire store location by non-member customers?
 
-My analysis was conducted in Microsoft Excel and the below feedback was gotten.
+My analysis was conducted in Microsoft Excel using pivot tables.
+
+![](cover1.jpg)
+
+
+## Task 2
+
+I was provided with a data set named “mobile_customers.csv.” This contained information about customers who have signed up for the mobile app in the last three years.
+
+I was tasked to anonymize this data to hide personal details while preserving any useful information for the data scientists at InsightSpark.
+
+Anonymizing a data set can involve the following:
+Removing columns that don’t provide helpful information for analysis (e.g., names or credit card numbers).
+Masking any columns that can identify an individual (e.g., passport numbers or mobile numbers).
+Categorizing personal figures (e.g., age and income) into a bracket rather than a specific number.
+
+First, I had to research the different techniques for anonymizing the data set. Then, I edited the data set and created an anonymized data set as a CSV file. I decided to do this task using a Python script instead of Excel.
