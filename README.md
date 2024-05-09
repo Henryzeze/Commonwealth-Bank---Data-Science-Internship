@@ -36,7 +36,7 @@ Categorizing personal figures (e.g., age and income) into a bracket rather than 
 
 First, I had to research the different techniques for anonymizing the data set. Then, I edited the data set and created an anonymized data set as a CSV file. I decided to do this task using a Python script instead of Excel.
 
-***Note*** python script and anonymize_data can be found in the files.
+***Note*** Python script and anonymize_data can be found in the files.
 
 ## Task 3
 
@@ -127,6 +127,9 @@ Direct Mentions:
 - Direct mentions are linked to the original tweet in the Tweets table through the tweet_id field.
 
 
+## Certificate of Completion
+
+![](certificate.jpg)
 
 
 
