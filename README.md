@@ -62,3 +62,71 @@ This task involved familiarizing myself with the CommBank Account and drafting a
 - Analyzing user interactions and engagement patterns can inform personalized marketing strategies and customer engagement initiatives.
 - Identifying influential users and brand advocates can facilitate targeted outreach efforts and foster community engagement.
 
+## Task 4
+
+I was tasked to propose a database structure that stores tweets from the CommBank Twitter account, as well as user replies, user quote retweets, and direct mentions.
+
+**My Database Structure Proposal for Storing Twitter Data**
+
+**List of Tables:**
+
+- Tweets
+- Users
+- Replies
+- Quote Retweets
+- Direct Mentions
+
+**Items to Include in Each Table:**
+
+Tweets:
+
+- tweet_id (Primary key): Unique identifier for each tweet.
+- user_id: ID of the user who posted the tweet.
+- tweet_text: Content of the tweet.
+- tweet_date: Date and time when the tweet was posted.
+
+Users:
+
+- user_id (Primary key): Unique identifier for each user.
+- username: Twitter username of the user.
+- name: Full name of the user.
+- bio: User's bio description.
+- location: User's location.
+- follower_count: Number of followers.
+- following_count: Number of accounts the user is following.
+
+Replies:
+
+- reply_id (Primary key): Unique identifier for each reply.
+- tweet_id: ID of the tweet being replied to.
+- user_id: ID of the user who posted the reply.
+- reply_text: Content of the reply.
+- reply_date: Date and time when the reply was posted.
+
+Quote Retweets:
+
+- quote_retweet_id (Primary key): Unique identifier for each quote retweet.
+- tweet_id: ID of the tweet being quoted.
+- user_id: ID of the user who posted the quote retweet.
+- quote_retweet_text: Content of the quote retweet.
+- quote_retweet_date: Date and time when the quote retweet was posted.
+
+Direct Mentions:
+
+- mention_id (Primary key): Unique identifier for each direct mention.
+- tweet_id: ID of the tweet where the mention occurred.
+- user_id: ID of the user who was mentioned.
+- mention_text: Content of the mention.
+- mention_date: Date and time when the mention was made.
+
+**Table Relationships:**
+
+- Each tweet in the Tweets table is linked to the corresponding user in the Users table through the user_id field.
+- Replies are linked to the original tweet in the Tweets table through the tweet_id field.
+- Quote retweets are linked to the original tweet in the Tweets table through the tweet_id field.
+- Direct mentions are linked to the original tweet in the Tweets table through the tweet_id field.
+
+
+
+
+
