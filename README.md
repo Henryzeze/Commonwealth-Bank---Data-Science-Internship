@@ -40,4 +40,25 @@ First, I had to research the different techniques for anonymizing the data set. 
 
 ## Task 3
 
+This task involved familiarizing myself with the CommBank Account and drafting a proposal informing my team on how web scraping the data available from this account will help provide valuable insights into customer interactions, market perceptions, and any other relevant trends to the banking sector. I also highlighted the following potential use cases for Insightspark:
+
+**Customer Sentiment Analysis:**
+
+- By analyzing tweets mentioning @CommBank, Insightspark can perform sentiment analysis to gauge public sentiment towards the bank.
+- Insights derived from sentiment analysis can help CBA identify areas for improvement in customer satisfaction and address potential pain points.
+
+**Product Feedback and Market Insights:**
+
+- Analyzing user mentions and replies can provide valuable feedback on CBA products, services, and customer experiences.
+- Monitoring discussions around specific banking products or services can offer insights into market trends, customer preferences, and competitors' offerings.
+
+**Brand Reputation Management:**
+
+- Tracking mentions, retweets, and engagement metrics can help assess the bank's brand perception and reputation on Twitter.
+- Identifying and addressing negative sentiments or potential PR crises in real-time can mitigate reputational risks and maintain a positive brand image.
+
+**Customer Engagement and Outreach:**
+
+- Analyzing user interactions and engagement patterns can inform personalized marketing strategies and customer engagement initiatives.
+- Identifying influential users and brand advocates can facilitate targeted outreach efforts and foster community engagement.
 
